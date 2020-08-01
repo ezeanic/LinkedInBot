@@ -1,14 +1,14 @@
-# LinkedInBot
+# LINKEDIN BOT
 
-# Search for occupation on LinkedIn
+# 1) Search for occupation on LinkedIn
 
-# Put in filters: location, company, ..etc
+# 2) Put in filters: location, company, ..etc
 
-# Right click and click on Inspect (or Ctrl+Shift+I)
+# 3) Right click and click on Inspect (or Ctrl+Shift+I)
 
-# Click on the console tab
+# 4) Click on the console tab
 
-# Copy and paste code below, after pasting press enter
+# 5) Copy and paste code below, after pasting press enter
 
 let a = document.getElementsByClassName("search-result__action-button search-result__actions--primary artdeco-button artdeco-button--default artdeco-button--2 artdeco-button--secondary");
 let d = document.getElementsByClassName("ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view");
@@ -17,7 +17,7 @@ function delay(i){
     setTimeout(function(){a[i].click();}, 4000); setTimeout(function(){d[0].click();}, 6000);
 } 
 
-# Copy and paste code below, after pasting press enter
+# 6) Copy and paste code below, after pasting press enter
 
 setTimeout(function(){nextbtn[0].click();}, 330000); 
 setTimeout(function(){delay(9);}, 327000); 
