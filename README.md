@@ -153,4 +153,4 @@ setTimeout(function(){delay(3);}, 12000);
 setTimeout(function(){delay(1);}, 6000);
 setTimeout(function(){delay(0);}, 3000);
 
-# Repeat step 6 after code stops
+# 7) Repeat step 6 after code stops
